@@ -1,0 +1,125 @@
+header {
+    background-color: #004080;
+    padding: 20px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+header h1 {
+    color: #FFFFFF;
+    text-align: right;
+    flex: 1;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #003366;
+    padding: 10px;
+}
+
+.navbar a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+main {    /* there is a class for main_homepage but the output images imply that this styling is used in the main section of each page (even though the instructions do not) */
+    background-color: #d4d4d4;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;  /* it said margins of 20px but it was 0px margins that matched thw output shown */
+}
+
+footer {
+    background-color: #004080;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+#term {
+    background-color: lightyellow;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.Enrolled td div {
+    background-color: #e6f2ff;
+    box-shadow: 10px 10px 5px #a38c8c;
+    padding: 20px;
+    margin: 0px;    /* again the 0px margins matched the expected output */
+    border-radius: 10px;
+}
+
+.accept {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.accept:hover {
+    background-color: #265e28;
+}
+
+.decline {
+    background-color: #d32f2f;
+    color: #fff;
+}
+
+.decline:hover {
+    background-color: #821b1b;
+}
+
+#banner {
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.details {
+    text-align: center;
+    background-color: lightblue;
+    padding: 20px;
+    margin: 0px 250px;
+}
+
+.details h2 {
+    color: rgb(42, 148, 184);
+}
+
+.answerbox {
+    background-color: #cacaca;
+    text-align: left;
+    padding : 5px 20px;
+    margin: 5px 400px;
+}
+
+.answerbox input {
+    margin: 10px;
+}
+
+.submitbtn {
+    background-color: lightblue;
+    color: #000;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.submitbtn:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+.finish {
+    background-color: #f89c9a;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.finish:hover {
+    background-color: darkred;
+}
