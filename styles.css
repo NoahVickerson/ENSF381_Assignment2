@@ -47,8 +47,23 @@ header h1 {
     color: white;
     border: none;
     border-radius: 5px;
-
 }
+
+.mainclass {
+    background-color: #d4d4d4;
+    box-shadow: 10px 10px #eae7e7d0;
+    padding: 30px;
+    margin-right: 150px;
+    margin-left: 150px;
+    border-radius: 30px;
+}
+
+.mainclass p{
+    display: flex;
+    justify-content: center;
+
+} 
+
 
 .login:hover {
     background-color: #006600
