@@ -1,31 +1,40 @@
 <!DOCTYPE html>
-<!-- Gabriel Delisle: 30172306, Noah Vickerson: 30206712-->
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
-<header>
-<img src="logo.jpg" alt="LMS logo" width="7%" height ="7%">
-<h1 style="font-size:20px; color: white">LMS - Learning Management System</h1>
-</header>
-<div class = "navbar">
-    <a href="index.html" style="color:white">Homepage</a>
-</div>
-<h2 class="lmsstyle" style="color: #004080;"> LMS Login</h2>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LMS Homepage</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+<body>
+    <header>
+        <img src="logo.jpg" alt="LMS Logo" style="width: 100px; height: 100px;">
+        <h1>LMS - Learning Management System</h1>
+    </header>
 
-<body class="body">
-    <main class="mainclass">
-    <p>Username:</p>
-    <input class = "loginfield" type="text" name="uname">
-    <p>Password:</p>
-    <input class = "loginfield" type="password" name="password" name="pword">
+    <div>
+        <nav class="navbar">
+            <a href="login.html">Login</a> |
+            <a href="leaderboard.html">Leaderboard</a> |
+            <a href="#about">About LMS</a>
+        </nav>
+    </div>
+
+    <main class="main_homepage">
+        <section id="about">
+            <h2>About LMS</h2>
+            <p>The Learning Management System (LMS) helps students and instructors manage courses, quizzes, and track performance efficiently.</p>
+            <p>Key Features:</p>
+            <ul>
+                <li>Enroll in courses</li>
+                <li>Attempt quizzes</li>
+                <li>View leaderboards</li>
+            </ul>
+        </section>
     </main>
-    <br> <br>
-    <button class="login">Login</button>
-    <p> </p><a href="">Forgot password?</a> <p></p>
-    <footer>
-    <p>© 2025 LMS. All rights reserved. </p>
-    </footer>
 
+    <footer>
+        <p>&copy; 2025 LMS. All rights reserved.</p>
+    </footer>
 </body>
 </html>
