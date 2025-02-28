@@ -13,30 +13,39 @@ header h1 {
     flex: 1;
 }
 
-.homepage {
+.lmsstyle {
+    text-align: center;
+
+}
+
+.body {
+    text-align: center;
+}
+
+.mainclass {
     display: flex;
+    background-color: #d4d4d4;
+    text-align: center;
+    border-radius: 30px;
+    margin-left: 150px;
+    padding: 30px;
+    margin-right: 150px;
+    border-color: #a9a9a9;
     justify-content: center;
-    background-color: #003366;
-    padding: 10px;
+    flex-direction: column;
+    box-shadow: #a9a9a9d8 10px 10px 10px;
+
 }
 
-.homepage a {
-    color: white;
-    text-decoration: none;
-}
-
-.hlogin {
-    display:flex;
-    color: #004080;
-    justify-content: center;;
-}
-
-.logininput {
+.loginfield {
     background-color: lightyellow;
     padding: 10px;
     border-radius: 3px;
     border-color: darkgray;
     border-width: 3px;
+    width: 200px;
+    align-items: center;
+    margin: auto;
 }
 
 .login{
@@ -48,33 +57,11 @@ header h1 {
     color: white;
     border: none;
     border-radius: 5px;
+
 }
-
-.mainclass {
-    background-color: #d4d4d4;
-    box-shadow: 10px 10px #eae7e7d0;
-    padding: 30px;
-    margin-right: 150px;
-    margin-left: 150px;
-    border-radius: 30px;
-}
-
-.mainclass p{
-    display: flex;
-    justify-content: center;
-
-} 
-
 
 .login:hover {
     background-color: #006600
-}
-.mainbody a {
-    display: flex;
-    color: #004080;
-    justify-content: center;
-    text-decoration: none;
-    margin: auto;
 }
 
 
