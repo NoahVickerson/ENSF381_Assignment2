@@ -93,7 +93,7 @@ header h1 {
     text-decoration: underline;
 }
 
-main {    /* there is a class for main_homepage but the output images imply that this styling is used in the main section of each page (even though the instructions do not) */
+.main_homepage {    /* there is a class for main_homepage but the output images imply that this styling is used in the main section of each page (even though the instructions do not) */
     background-color: #d4d4d4;
     text-align: center;
     padding: 20px;
