@@ -12,6 +12,56 @@ header h1 {
     flex: 1;
 }
 
+.homepage {
+    display: flex;
+    justify-content: center;
+    background-color: #003366;
+    padding: 10px;
+}
+
+.homepage a {
+    color: white;
+    text-decoration: none;
+}
+
+.hlogin {
+    display:flex;
+    color: #004080;
+    justify-content: center;;
+}
+
+.logininput {
+    background-color: lightyellow;
+    padding: 10px;
+    border-radius: 3px;
+    border-color: darkgray;
+    border-width: 3px;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 8px;
+    background-color: #008000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.login:hover {
+    background-color: #006600
+}
+.mainbody a {
+    display: flex;
+    color: #004080;
+    justify-content: center;
+    text-decoration: none;
+    margin: auto;
+}
+
+
 .navbar {
     display: flex;
     justify-content: space-evenly;
@@ -147,3 +197,4 @@ footer {
     border-radius: 100%;
     border: #000 1px solid;
 }
+
